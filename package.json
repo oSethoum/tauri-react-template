@@ -3,17 +3,16 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "web:dev": "vite",
-    "web:build": "tsc && vite build",
-    "web:preview": "vite preview",
-    "dev": "tauri dev",
-    "build": "tauri build"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
   },
   "dependencies": {
     "@tauri-apps/api": "^1.0.1",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "vite-plugin-tauri": "^2.1.0"
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.0.2",

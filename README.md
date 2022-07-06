@@ -1,6 +1,6 @@
 # React-tauri-vite-template
 
-Simple template to get started with react vite and tauri, note that it has typescript support also, It enables the vite-plugin-tauri, to avoid ghost terminal issue.
+Simple template to get started with react vite and tauri, note that it has typescript support also, ~~It enables the vite-plugin-tauri, to avoid ghost terminal issue~~.
 
 ## why ?
 
@@ -26,10 +26,10 @@ yarn
 
 ```sh
 #npm
-npm run dev
+npm run tauri:dev
 
 #yarn
-yarn dev
+yarn tauri:dev
 ```
 
 note that the first run will take time as tauri download and compile dependencies.
@@ -42,10 +42,10 @@ run:
 
 ```sh
 #npm
-npm run build
+npm run tauri:build
 
 #yarn
-yarn build
+yarn tauri:build
 ```
 
 ## Note:
