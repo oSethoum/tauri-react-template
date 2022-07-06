@@ -1,13 +1,13 @@
 {
   "name": "tauri-react-template",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "web:dev": "vite",
     "web:build": "tsc && vite build",
     "web:preview": "vite preview",
-    "dev": "vite-tauri dev",
-    "build": "vite-tauri build"
+    "dev": "tauri dev",
+    "build": "tauri build"
   },
   "dependencies": {
     "@tauri-apps/api": "^1.0.1",
