@@ -8,7 +8,7 @@ Because it's fun.
 
 ## Requirements:
 
-[here](https://tauri.studio/docs/getting-started/prerequisites)
+[here](https://tauri.app/v1/guides/getting-started/prerequisites)
 
 ## Instructions
 
